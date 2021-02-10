@@ -1,6 +1,10 @@
-require('./style.css');
-require('./Component');
-const container = document.getElementById('root');
+import Component from './Component';
+import mathConst, * as MyMath from './math';
 
-console.log('INDEX JS');
-console.log('test');
+console.time();
+console.log(MyMath.pow(180,50))
+console.timeEnd();
+
+console.time();
+console.log(MyMath.pow(180, 50));
+console.timeEnd();
