@@ -1,10 +1,7 @@
 import Component from './Component';
-import mathConst, * as MyMath from './math';
+import * as Test from './math';
+// const Test = require('./math');
 
-console.time();
-console.log(MyMath.pow(180,50))
-console.timeEnd();
+const result = Test.sum(23, 2342354);
 
-console.time();
-console.log(MyMath.pow(180, 50));
-console.timeEnd();
+console.log(Test);

@@ -12,6 +12,8 @@ export const pow = (base, exp) => {
 
 export const sum = (...args) => args.reduce((t, i) => t + i, 0);
 
+sum(24, 25)
+
 export const mul = (a, b) => a * b;
 
 const SUPER_MATH_CONSTANT = 23;
